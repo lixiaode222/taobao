@@ -5,6 +5,8 @@
 /vendor
 /public/js
 /public/css
+/public/fonts
+/public/mix-manifest.json
 .env
 .phpunit.result.cache
 Homestead.json
