@@ -12,7 +12,7 @@
                             <div class="col-md-9">
                                 <div class="form-row">
                                     <div class="col-auto"><input type="text" class="form-control form-control-sm" name="search" placeholder="搜索"></div>
-                                    <div class="col-auto"><button class="btn btn-primary btn-sm">搜索</button></div>
+                                    <div class="col-auto"><button class="btn btn-primary btn-sm" style="background-color: #ff8134;border-color: #ff8134">搜索</button></div>
                                 </div>
                             </div>
                             <div class="col-md-3">
@@ -52,7 +52,7 @@
                             </div>
                         @endforeach
                     </div>
-                    <div class="float-right">{{ $products->appends($filters)->render() }}</div> <!-- 只需要添加这一行 -->
+                    <div class="float-right" >{{ $products->appends($filters)->render() }}</div> <!-- 只需要添加这一行 -->
                 </div>
             </div>
         </div>
