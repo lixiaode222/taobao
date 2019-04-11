@@ -6,7 +6,7 @@
         <div class="col-md-10 offset-lg-1">
             <div class="card">
                 <div class="card-header">
-                    <h2 class="text-center">
+                    <h2 class="text-center" style="color: #ff8134">
                         {{ $address->id ? '修改': '新增' }}收货地址
                     </h2>
                 </div>
@@ -88,7 +88,7 @@
                             </div>
                             <div class="form-group row text-center">
                                 <div class="col-12">
-                                    <button type="submit" class="btn btn-primary">提交</button>
+                                    <button type="submit" style="background-color: #ff8134;border-color: #ff8134" class="btn btn-primary">提交</button>
                                 </div>
                             </div>
                         </form>

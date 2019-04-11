@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-lg-10 offset-lg-1">
             <div class="card">
-                <div class="card-header">订单列表</div>
+                <div class="card-header" style="color:#ff8134;">订单列表</div>
                 <div class="card-body">
                     <ul class="list-group">
                         @foreach($orders as $order)

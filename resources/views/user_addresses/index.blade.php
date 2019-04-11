@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-10 offset-md-1">
             <div class="card panel-default">
-                <div class="card-header">
+                <div class="card-header" style="color: #ff8134">
                     收货地址列表
                     <a href="{{ route('user_addresses.create') }}" class="float-right">新增收货地址</a>
                 </div>

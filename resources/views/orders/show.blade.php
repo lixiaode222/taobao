@@ -6,7 +6,7 @@
         <div class="col-lg-10 offset-lg-1">
             <div class="card">
                 <div class="card-header">
-                    <h4>订单详情</h4>
+                    <h4 style="color:#ff8134;">订单详情</h4>
                 </div>
                 <div class="card-body">
                     <table class="table">
@@ -71,8 +71,8 @@
                         </div>
                         <div class="order-summary text-right">
                             <div class="total-amount">
-                                <span>订单总价：</span>
-                                <div class="value">￥{{ $order->total_amount }}</div>
+                                <span style="color:#ff8134;">订单总价：</span>
+                                <div class="value" style="color:#ff8134;">￥{{ $order->total_amount }}</div>
                             </div>
                             <div>
                                 <span>订单状态：</span>
